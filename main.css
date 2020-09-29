@@ -1,0 +1,60 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1
+{
+    
+    color:rgb(199, 199, 30);
+    font-size:  35px;
+    font-family: 'Playfair Display', serif;
+
+}
+p
+{
+    color:ivory;
+}
+h2
+{
+    color:ivory;
+}
+
+
+header div p
+{
+    
+    text-align: center;
+    margin:auto;
+    
+    padding:20px;
+}
+.head-p
+{
+    display: flex;
+
+
+    
+}
+body{
+    background-image: url('pics/riverruns.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.title-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    
+    font-size: 10px;
+}
