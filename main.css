@@ -12,33 +12,24 @@ h1
     color:rgb(199, 199, 30);
     font-size:  35px;
     font-family: 'Playfair Display', serif;
-
+    
 }
+
 p
 {
     color:ivory;
 }
+
 h2
 {
     color:ivory;
 }
 
 
-header div p
-{
-    
-    text-align: center;
-    margin:auto;
-    
-    padding:20px;
-}
-.head-p
-{
-    display: flex;
 
 
-    
-}
+/* Background image */
+
 body{
     background-image: url('pics/riverruns.jpg');
     background-size: cover;
@@ -49,12 +40,113 @@ body{
     
 }
 
-.title-container
+
+
+/* Header actor titles */
+
+header div p
 {
+    
+    text-align: center;
+    
+    
+    padding:30px;
+}
+
+
+
+.head-p
+{
+    margin-left:10%;
+    margin-right:10%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    
+    
+
+    
+    
+}
+
+
+
+
+/* Award winning titles */
+
+.award-container
+{
+    display: flex;
+    justify-content: center;
+    
+    margin: 4rem;
+}
+
+
+
+
+/* Motvie Title */
+
+
+.movie-title
+{
+    margin-top:5.5rem;
+    text-align: center;
+    /* margin-left: 11rem; */
+
+
+}
+
+.movie-title 
+
+
+.movie-title:hover
+{
+    cursor: pointer;
+    transition: all 2s linear;
+    transform: rotateX(360deg);
+} 
+
+
+
+
+
+/* Director and etc titles container */
+
+.director-title-container
+{
+    margin-top: 10rem;/*  
+    margin-left: 10rem;
+    margin-right:10rem; */
+    display: grid;
+   /*  grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     
     
     font-size: 10px;
 }
+
+.directorbox
+{
+    text-align: center;
+}
+
+
+@media screen and (min-width: 1050px)
+{
+
+.director-title-container
+{
+  
+    margin-top: 12rem;
+    margin-left: 15rem;
+    margin-right:15rem;
+
+}
+
+
+
+}
+
+@media screen and (min-width: 1340px)
+{
